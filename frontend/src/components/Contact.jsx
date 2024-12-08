@@ -37,16 +37,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_7xt9vn8',
-        'template_nnsdtbj',
+        'service_pqzlr3p',
+        'template_zov3t6s',
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Nitin",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "chalananitin161@gmail.com",
           message: form.message,
         },
-        'lb6VX9psNwtgRzMTc'
+        'UXXet7fvHNo54aoJ2'
       )
       .then(
         () => {

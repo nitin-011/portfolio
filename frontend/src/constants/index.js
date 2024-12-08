@@ -1,26 +1,26 @@
-import {
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    c,
-    python,
-    eduacademy,
-    tesla,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
-  } from "../assets";
+import web from "../assets/web.png";
+import creator from "../assets/creator.png";
+import typescript from "../assets/tech/typescript.png";
+import reactjs from "../assets/tech/reactjs.png";
+import redux from "../assets/tech/redux.png";
+import tailwind from "../assets/tech/tailwind.png";
+import nodejs from "../assets/tech/nodejs.png";
+import mongodb from "../assets/tech/mongodb.png";
+import threejs from "../assets/tech/threejs.svg";
+import git from "../assets/tech/git.png";
+import figma from "../assets/tech/figma.png";
+import c from "../assets/tech/c.png";
+import python from "../assets/tech/python.png";
+import uniqus from "../assets/uniqus.png";
+import eduacademy from "../assets/eduacademy.png";
+import kahba from "../assets/kahba.png";
+import carrent from "../assets/carrent.png";
+import jobit from "../assets/jobit.png";
+import tripguide from "../assets/tripguide.png";
+import profcess from "../assets/profcess.png";
+import freelance from "../assets/freelance.png";
+import express from "../assets/tech/express.png";
+
   
   export const navLinks = [
     {
@@ -40,7 +40,15 @@ import {
   const services = [
     {
       title: "MERN Developer",
-      icon: web,
+      icon: creator,
+    },
+    {
+      title: "Marketing Strategist",
+      icon: creator,
+    },
+    {
+      title: "Business Growth Expert",
+      icon: creator,
     },
     {
       title: "Vedio Editor",
@@ -51,24 +59,24 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "MongoDB",
+      icon: mongodb,
     },
     {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
+      name:"Express JS",
+      icon: express,
     },
     {
       name: "React JS",
       icon: reactjs,
+    },
+    {
+      name: "Node JS",
+      icon: nodejs,
+    },
+    {
+      name: "TypeScript",
+      icon: typescript,
     },
     {
       name: "Redux Toolkit",
@@ -77,14 +85,6 @@ import {
     {
       name: "Tailwind CSS",
       icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
     },
     {
       name: "Three JS",
@@ -111,32 +111,72 @@ import {
   
   const experiences = [
     {
+      title: "React Developer & Marketing Strategist",
+      company_name: "Uniqus Edutech",
+      icon: uniqus,  // Replace with actual icon
+      iconBg: "#383E56",  // Replace with preferred color
+      date: "Jan 2021 - Present",
+      points: [
+        "Started as a React Developer, contributing to web development using React.js and related technologies.",
+        "Transitioned to developing marketing strategies, formulating and implementing effective campaigns.",
+        "Created 3 engaging video scripts to communicate the company's offerings and values.",
+        "Successfully hosted a hackathon, fostering innovation and engagement within the company.",
+      ],
+    },
+    {
       title: "React.js Developer",
       company_name: "EduAcademy",
-      icon: eduacademy,
+      icon: eduacademy,  // Replace with actual icon
       iconBg: "#383E56",
       date: "March 2023 - September 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed and maintained web applications using React.js and other related technologies.",
+        "Collaborated with cross-functional teams including designers, product managers, and developers to create high-quality products.",
+        "Implemented responsive design and ensured cross-browser compatibility.",
+        "Participated in code reviews and provided constructive feedback to fellow developers.",
       ],
     },
     {
       title: "Frontend Developer",
-      company_name: "Uniqus",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      company_name: "Kahba Design Studio",
+      icon: kahba,  // Replace with actual icon
+      iconBg: "#383E56",
+      date: "2021 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Streamlined the studio’s online presence by creating a dynamic website [Kahba Design Studio](https://www.kahbadesignstudio.com/).",
+        "Built and managed their [LinkedIn page](https://www.linkedin.com/company/kahbadesignstudio/), growing the follower base from 0 to 100+.",
+        "Developed and executed tailored marketing strategies to enhance brand visibility and client engagement.",
+        "Created an efficient online content creation process, ensuring consistency across platforms.",
+      ],
+    },
+    {
+      title: "Freelance Developer & Marketing Consultant",
+      company_name: "Freelance",
+      icon: freelance,  // Replace with actual icon
+      iconBg: "#383E56",
+      date: "2019 - Present",
+      points: [
+        "Managed 10+ freelance clients, offering website development and marketing services tailored to their needs.",
+        "Organized 8 small events and sessions, along with 3 large-scale events and 1 major fest, within a span of 2 years.",
+        "As Marketing Head for Punjab University’s largest fest, secured over 1.5 lakhs in sponsorships.",
+        "Co-convened Software Freedom Day (SFD), one of the largest tech conferences in Chandigarh.",
+      ],
+    },
+    {
+      title: "Business Development Intern",
+      company_name: "Profcess & Metafied",
+      icon: profcess,  // Replace with actual icon
+      iconBg: "#383E56",
+      date: "2022 - Present",
+      points: [
+        "Led the development of an automated lead-generation funnel, filtering prospective clients from a database of 7 million companies.",
+        "Automated email, LinkedIn, and WhatsApp marketing strategies for improved client outreach and acquisition.",
+        "Utilized AI tools to optimize client filtering and streamline marketing campaigns for efficiency.",
+        "Contributed to business growth by identifying and implementing effective prospecting tools and strategies.",
       ],
     },
   ];
+  
   
   const projects = [
     {

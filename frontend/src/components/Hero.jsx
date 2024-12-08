@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+import homepage from "../assets/homepage.png";
 
 const Hero = () => {
   return (
@@ -10,22 +9,23 @@ const Hero = () => {
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
-          <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
+          <div className='w-5 h-6 rounded-full bg-[#915EFF] mt-[7rem]' />
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
 
-        <div>
+        <div className="mt-[7rem]">
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className='text-[#915EFF]'>Nitin</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop websites, <br className='sm:block hidden' />
-            interfaces and 3D,2D web applications
+            I develop business, <br className='sm:block hidden' />
+            Marketing Strategist, Business Growth Expert <br className='sm:block hidden' /> Full-Stack and AI Developer
           </p>
         </div>
       </div>
-
-      <ComputersCanvas />
+      <div>
+        <img src={homepage} alt='hero' className='hidden md:block md:absolute md:right-[3rem] md:top-[6.5rem] w-auto' />
+      </div>
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
