@@ -51,7 +51,7 @@ import express from "../assets/tech/express.png";
       icon: creator,
     },
     {
-      title: "Vedio Editor",
+      title: "Video Editor",
       icon: creator,
     },
 
@@ -115,7 +115,7 @@ import express from "../assets/tech/express.png";
       company_name: "Uniqus Edutech",
       icon: uniqus,  // Replace with actual icon
       iconBg: "#383E56",  // Replace with preferred color
-      date: "Jan 2021 - Present",
+      date: "Jan 2024 - Present",
       points: [
         "Started as a React Developer, contributing to web development using React.js and related technologies.",
         "Transitioned to developing marketing strategies, formulating and implementing effective campaigns.",
@@ -141,7 +141,7 @@ import express from "../assets/tech/express.png";
       company_name: "Kahba Design Studio",
       icon: kahba,  // Replace with actual icon
       iconBg: "#383E56",
-      date: "2021 - Present",
+      date: "2024 - Present",
       points: [
         "Streamlined the studio’s online presence by creating a dynamic website [Kahba Design Studio](https://www.kahbadesignstudio.com/).",
         "Built and managed their [LinkedIn page](https://www.linkedin.com/company/kahbadesignstudio/), growing the follower base from 0 to 100+.",
@@ -154,7 +154,7 @@ import express from "../assets/tech/express.png";
       company_name: "Freelance",
       icon: freelance,  // Replace with actual icon
       iconBg: "#383E56",
-      date: "2019 - Present",
+      date: "2023 - Present",
       points: [
         "Managed 10+ freelance clients, offering website development and marketing services tailored to their needs.",
         "Organized 8 small events and sessions, along with 3 large-scale events and 1 major fest, within a span of 2 years.",
@@ -167,7 +167,7 @@ import express from "../assets/tech/express.png";
       company_name: "Profcess & Metafied",
       icon: profcess,  // Replace with actual icon
       iconBg: "#383E56",
-      date: "2022 - Present",
+      date: "2024- Present",
       points: [
         "Led the development of an automated lead-generation funnel, filtering prospective clients from a database of 7 million companies.",
         "Automated email, LinkedIn, and WhatsApp marketing strategies for improved client outreach and acquisition.",
@@ -180,21 +180,13 @@ import express from "../assets/tech/express.png";
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Sales Project",
       description:
-        "C++ platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "I developed a comprehensive sales project by designing a strategic funnel, building an online lead-attraction model, and integrating three platforms for seamless operations and enhanced efficiency",
       tags: [
         {
-          name: "c++",
+          name: "#marketing",
           color: "blue-text-gradient",
-        },
-        {
-          name: "oop",
-          color: "green-text-gradient",
-        },
-        {
-          name: "stl",
-          color: "pink-text-gradient",
         },
       ],
       image: carrent,
