@@ -8,28 +8,53 @@ const Hero = () => {
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
-        <div className='flex flex-col justify-center items-center mt-5'>
-          <div className='w-5 h-6 rounded-full bg-[#915EFF] mt-[7rem]' />
-          <div className='w-1 sm:h-80 h-40 violet-gradient' />
+        <div className="flex flex-col justify-center items-center mt-5">
+          <div className="w-7 h-11 rounded-full bg-[#915EFF] mt-[7rem]" />
+          <div className="w-1 sm:h-80 h-85 violet-gradient" />
         </div>
 
-        <div className="mt-[7rem]">
+        <div className="mt-[15px]">
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Nitin</span>
+            Hi, I'm <span className="text-[#915EFF]">Nitin</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop business, <br className='sm:block hidden' />
-            Marketing Strategist, Business Growth Expert <br className='sm:block hidden' /> Full-Stack and AI Developer
-          </p>
+
+          <div className="bg-[#1f1f1f] rounded-xl p-6 w-full max-w-2xl mx-auto overflow-hidden">
+            <p className="text-[18px] sm:text-[20px] text-white-100 text-justify">
+              <span className="font-semibold">Founder of The Poppy Pie</span>{" "}
+              <br className="sm:block hidden" />
+              I develop businesses <br />
+              <br />
+              <ul className="list-disc pl-6 space-y-2">
+                <li>
+                Developed more than 25+ websites for startups and business owners
+                </li>
+                <li>
+                Built intelligent automation tools and AI agents to optimize workflows
+                </li>
+                <li>
+                Worked with 10+ brands helping them finding their voice and achieve thier potential.
+                </li>
+              </ul>
+              <br/>
+              I partner with businesses to build bold brands, shape
+              compelling brand strategies, and unlock real growth.
+              <br />
+              <span className="font-semibold">Full-Stack & AI Developer | Market & Growth Strategist</span>
+            </p>
+          </div>
         </div>
       </div>
-      <div>
-        <img src={homepage} alt='hero' className='hidden md:block md:absolute md:right-[3rem] md:top-[6.5rem] w-auto' />
+      <div className="flex justify-end">
+        <img
+          src={homepage}
+          alt="hero"
+          className="hidden md:block md:absolute md:left-[65rem] md:bottom-[1px] w-auto"
+        />
       </div>
 
-      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
-        <a href='#about'>
-          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
+      <div className="absolute xs:bottom-10 bottom-32 w-full justify-center items-center hidden sm:flex">
+        <a href="#about">
+          <div className="w-[35px] h-[64px] rounded-3xl border-4 translate-y-[65px] border-secondary flex justify-center items-start p-2">
             <motion.div
               animate={{
                 y: [0, 24, 0],
@@ -39,7 +64,7 @@ const Hero = () => {
                 repeat: Infinity,
                 repeatType: "loop",
               }}
-              className='w-3 h-3 rounded-full bg-secondary mb-1'
+              className="w-3 h-3 rounded-full bg-secondary mb-1"
             />
           </div>
         </a>
