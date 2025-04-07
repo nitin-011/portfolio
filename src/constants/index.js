@@ -200,7 +200,7 @@ import poppypie from "../assets/company/poppypie.png"
     {
       name: "Sales Project",
       description:
-        "I developed a comprehensive sales project by designing a strategic funnel, building an online lead-attraction model, and integrating three platforms for seamless operations and enhanced efficiency",
+        "I developed a comprehensive sales project by designing a strategic funnel for metafied, building an online lead-attraction model, and integrating three platforms for seamless operations and enhanced efficiency",
       tags: [
         {
           name: "#marketing",
@@ -216,15 +216,15 @@ import poppypie from "../assets/company/poppypie.png"
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
         {
-          name: "HTML",
+          name: "React.js",
           color: "blue-text-gradient",
         },
         {
-          name: "CSS",
+          name: "Node.js & Express.js",
           color: "green-text-gradient",
         },
         {
-          name: "JS",
+          name: "Mongodb",
           color: "pink-text-gradient",
         },
       ],
@@ -246,6 +246,27 @@ import poppypie from "../assets/company/poppypie.png"
         },
         {
           name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Assignment Solver",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "Laravel",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "React.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Sql",
           color: "pink-text-gradient",
         },
       ],
