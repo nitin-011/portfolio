@@ -58,7 +58,7 @@ const About = () => {
       <div
         className="mt-20 flex flex-wrap gap-10"
         onClick={() =>
-          window.open("https://www.nitinchalana.in/service", "_blank")
+          window.open("/service", "_blank")
         }
       >
         {services.map((service, index) => (

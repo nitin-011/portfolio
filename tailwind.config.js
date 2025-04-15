@@ -20,6 +20,9 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
       },
+      fontFamily: {
+        handwriting: ["'Shadows Into Light'", "cursive"],
+      },
     },
   },
   plugins: [
