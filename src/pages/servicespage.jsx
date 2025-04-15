@@ -105,7 +105,7 @@ const items = [
   },
 ];
 
-export default function ServicePage() {
+const  ServicePage= ()=> {
   const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {
