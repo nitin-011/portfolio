@@ -1,16 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.d6b9d046.css",
-    "main.js": "/static/js/main.22596100.js",
-    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
-    "static/media/tripguide.png": "/static/media/tripguide.991986c795ea140ba063.png",
+    "main.css": "/static/css/main.4a619ea2.css",
+    "main.js": "/static/js/main.7c38855c.js",
+    "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
+    "static/media/image2.jpg": "/static/media/image2.a857f1056c3526d375b6.jpg",
+    "static/media/image1.jpg": "/static/media/image1.dc7d7fc40287bc9eb65c.jpg",
+    "static/media/image3.jpg": "/static/media/image3.4193f3594031a975ed6f.jpg",
     "static/media/freelance.png": "/static/media/freelance.2024d418cf83798bad43.png",
+    "static/media/image4.jpg": "/static/media/image4.b78ccda086c8091a8c30.jpg",
+    "static/media/reel.png": "/static/media/reel.a844aa23c80441240888.png",
     "static/media/herobg.png": "/static/media/herobg.ad33add2430e34307c33.png",
-    "static/media/carrent.png": "/static/media/carrent.6b1e855ede285c40b77f.png",
+    "static/media/tripguide.png": "/static/media/tripguide.6b1e855ede285c40b77f.png",
     "static/media/jobit.png": "/static/media/jobit.755da7149642fd049273.png",
-    "static/media/homepage.png": "/static/media/homepage.0723d4fbf5c6724ea6ed.png",
+    "static/media/thumbnail.png": "/static/media/thumbnail.9110029ecb159b8a9f71.png",
+    "static/media/homepage.png": "/static/media/homepage.8aad76f386d1b2d4cef6.png",
+    "static/media/t2.png": "/static/media/t2.03ada316fea10f264910.png",
+    "static/media/image.png": "/static/media/image.1642d2958420649bc617.png",
+    "static/media/t4.png": "/static/media/t4.533ddacb54f046671ef7.png",
+    "static/media/t1.png": "/static/media/t1.00d3e70b665848ca6a34.png",
+    "static/media/t3.png": "/static/media/t3.ebaa94ab61c8ca9157b3.png",
     "static/media/web.png": "/static/media/web.c0cb2cc13791a26822d3.png",
+    "static/media/carrent.png": "/static/media/carrent.85fc5b922dd091d4b5bb.png",
+    "static/media/leads.png": "/static/media/leads.73f5d8950f8298168203.png",
     "static/media/profcess.png": "/static/media/profcess.2e6e83117fb7c8c35429.png",
+    "static/media/poppypie.png": "/static/media/poppypie.7a22e1354c1b6e7d4d07.png",
     "static/media/eduacademy.png": "/static/media/eduacademy.4aa92b799d7eb3451579.png",
     "static/media/backend.png": "/static/media/backend.08c8d93b8142c41a9e63.png",
     "static/media/mobile.png": "/static/media/mobile.15e7b89f1018dcdba6e7.png",
@@ -21,14 +34,14 @@
     "static/media/logo.svg": "/static/media/logo.b52715f2e949e3110a7e3e4bad7e681e.svg",
     "static/media/close.svg": "/static/media/close.52ab0d39b2c514b8322115c951eac5a2.svg",
     "static/media/menu.svg": "/static/media/menu.acf64a387fc724c7a47a3a0120d5dc52.svg",
-    "static/media/threejs.svg": "/static/media/threejs.34d1dab4caddf9c51437e9bafd282582.svg",
     "index.html": "/index.html",
-    "main.d6b9d046.css.map": "/static/css/main.d6b9d046.css.map",
-    "main.22596100.js.map": "/static/js/main.22596100.js.map",
-    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
+    "static/media/threejs.svg": "/static/media/threejs.34d1dab4caddf9c51437e9bafd282582.svg",
+    "main.4a619ea2.css.map": "/static/css/main.4a619ea2.css.map",
+    "main.7c38855c.js.map": "/static/js/main.7c38855c.js.map",
+    "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6b9d046.css",
-    "static/js/main.22596100.js"
+    "static/css/main.4a619ea2.css",
+    "static/js/main.7c38855c.js"
   ]
 }
